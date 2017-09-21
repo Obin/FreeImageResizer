@@ -43,6 +43,6 @@ namespace FreeImageAPI
         private static extern bool FIFSupportsReadingMacOS(FREE_IMAGE_FORMAT fif);
 
         [DllImport(FreeImageLibraryMacOS, CharSet = CharSet.Ansi, EntryPoint = "FreeImage_GetFIFFromMime")]
-        public static extern FREE_IMAGE_FORMAT GetFIFFromMimeMacOS(string mime);
+        private static extern FREE_IMAGE_FORMAT GetFIFFromMimeMacOS(string mime);
     }
 }
