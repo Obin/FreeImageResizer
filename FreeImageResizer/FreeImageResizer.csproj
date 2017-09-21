@@ -5,9 +5,10 @@
     <PackageId>FreeImageResizer</PackageId>
     <AssemblyTitle>FreeImage Resizer</AssemblyTitle>
     <Description>Cross-platform (Windows, Linux, MacOS) very minimal FreeImage .Net Core wrapper for resizing images</Description>
-    <PackageVersion>1.0.21</PackageVersion>
+    <PackageVersion>1.0.22</PackageVersion>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageTags>image resize freeimage</PackageTags>
+    <projectUrl>https://github.com/DonObin/FreeImageResizer</projectUrl>
 </PropertyGroup>
 
   <ItemGroup>
@@ -28,4 +29,5 @@
       <Pack>true</Pack>
     </None>
   </ItemGroup>
+  
 </Project>
