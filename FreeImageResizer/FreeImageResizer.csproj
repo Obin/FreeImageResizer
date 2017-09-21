@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>FreeImageResizer</PackageId>
+    <AssemblyTitle>FreeImage Resizer</AssemblyTitle>
+    <Description>Cross-platform (Windows, Linux, MacOS) very minimal FreeImage .Net Core wrapper for resizing images</Description>
+    <PackageVersion>1.0.21</PackageVersion>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>image resize freeimage</PackageTags>
+</PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\runtimes\win-x86\native\FreeImage.dll">
+      <PackagePath>runtimes/win-x86/native/FreeImage.dll</PackagePath>
+      <Pack>true</Pack>
+    </None>
+    <None Include="..\runtimes\win-x64\native\FreeImage.dll">
+      <PackagePath>runtimes/win-x64/native/FreeImage.dll</PackagePath>
+      <Pack>true</Pack>
+    </None>
+    <None Include="..\runtimes\linux-x64\native\libfreeimage-3.17.0.so">
+      <PackagePath>runtimes/linux-x64/native/libfreeimage-3.17.0.so</PackagePath>
+      <Pack>true</Pack>
+    </None>
+    <None Include="..\runtimes\osx-x64\native\libfreeimage.dylib">
+      <PackagePath>runtimes/osx-x64/native/libfreeimage.dylib</PackagePath>
+      <Pack>true</Pack>
+    </None>
+  </ItemGroup>
+</Project>
