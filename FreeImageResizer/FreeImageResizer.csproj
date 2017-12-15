@@ -4,8 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>FreeImageResizer</PackageId>
     <AssemblyTitle>FreeImage Resizer</AssemblyTitle>
-    <Description>Cross-platform (Windows, Linux, MacOS) very minimal FreeImage .Net Core wrapper for resizing images</Description>
-    <PackageVersion>1.0.22</PackageVersion>
+    <Description>Cross-platform (Windows, Linux, MacOS) minimal FreeImage .Net Core wrapper for resizing images</Description>
+    <PackageVersion>1.0.23</PackageVersion>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageTags>image resize freeimage</PackageTags>
     <projectUrl>https://github.com/DonObin/FreeImageResizer</projectUrl>
