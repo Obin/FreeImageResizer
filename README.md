@@ -1,6 +1,6 @@
 # FreeImageResizer
 
-Cross-platform (Windows, Linux, MacOS) very minimal FreeImage .Net Core wrapper for resizing images
+Cross-platform (Windows, Linux, MacOS) minimal FreeImage .Net Core wrapper for resizing images
 
 ## Example
 
